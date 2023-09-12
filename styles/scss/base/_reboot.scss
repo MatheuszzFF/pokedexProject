@@ -11,6 +11,19 @@ body {
 
 main {
     padding: 60px 0;
+
+    > .container {
+        display: flex;
+        gap: 15px;
+
+        aside {
+            width: 20%;
+        }
+
+        .pokeContent {
+            width: 80%;
+        }
+    }
 }
 
 .container {
@@ -29,4 +42,12 @@ ul {
     li {
         list-style: none;
     }
+}
+
+.show {
+    display: block!important;
+}
+
+.hide {
+    display: none!important;
 }

@@ -1,3 +1,23 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        margin: 0 auto;
+    }
+}
+
+.backgroundRadius {
+    height: 50px;
+    width: 50px;
+    background-color: $darkTheme1; 
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
 .buttonCenter {
     display: flex;
     justify-content: center;
