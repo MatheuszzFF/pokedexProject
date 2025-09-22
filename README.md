@@ -47,6 +47,10 @@ src/
 
 ### Getting Started
 ```bash
+# Clone the repository
+git clone <repository-url>
+cd pokemon-app-ts
+
 # Install dependencies
 npm install
 
@@ -62,6 +66,12 @@ npm test
 # Lint code
 npm run lint
 ```
+
+### Important Files
+- `.gitignore` - Configured to ignore `node_modules`, `dist`, environment files, and other build artifacts
+- `.gitattributes` - Ensures consistent line endings across different operating systems
+- `tsconfig.json` - TypeScript configuration with strict type checking
+- `vite.config.ts` - Vite configuration with path aliases and optimizations
 
 ### Scripts
 - `npm run dev` - Start development server with hot reload

@@ -51,7 +51,7 @@ export const getTypeBackground = (typeName: string): string => {
   return `/assets/images/pokemon/types/background/background-${typeName}.svg`;
 };
 
-export const debounce = <T extends (...args: unknown[]) => unknown>(
+export const debounce = <T extends (...args: any[]) => any>(
   func: T,
   delay: number
 ): ((...args: Parameters<T>) => void) => {
